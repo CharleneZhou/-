@@ -30,7 +30,7 @@
 .goods-list ul li:nth-child(1) { width: 248px; height: 610px; margin: 0 5px; }
 .goods-list ul li:nth-child(4), .goods-list ul li:nth-child(9) { margin: 0px; }
 .goods-list ul li { float: left; position: relative; width: 248px; height: 305px; margin: 0 5px 5px; }
-.goods-list ul li a { display: block; width: 100%; height: auto; }
+.goods-list ul li a { display: block; width: 100%; height: auto; overflow: hidden; }
 .goods-list ul li a img { width: 100%; height: 100%; }
 .goods-list ul li .s-fon { position: relative; line-height: 24px; font-size: 14px; width: 250px; height: 50px; }
 .goods-list ul li .s-fon .s-name { font-size: 14px; padding-left: 2px; text-overflow: ellipsis; color: #555555; max-width: 210px; overflow: hidden; width: 212px; white-space: nowrap; }
@@ -38,5 +38,26 @@
 .goods-list ul li .s-fon .s-che { position: absolute; top: auto; bottom: 5px; right: 2px; width: 34px; height: 34px; }
 .goods-list ul li .pos-span { position: absolute; left: 0px; top: 0px; }
 .goods-list ul li .pos-span span { cursor: pointer; font-size: 14px; line-height: 1px; padding: 6px 5px; color: #FFFFFF; background: #FF5353; width: 64px; height: 14px; }
+
+#global-fresh { width: 100%; height: 830px; }
+#global-fresh .global-title { width: 1280px; height: 68px; margin: 0 auto; padding: 15px 0 10px; font-size: 14px; line-height: 42px; border-top: 1px solid #ccc; }
+#global-fresh .global-title a { float: right; color: #333; margin-right: 20px; }
+#global-fresh .global-title img { float: left; }
+#global-fresh .global-list { width: 1290px; height: 620px; }
+#global-fresh .global-list ul { margin: 0 auto; }
+#global-fresh .global-list ul li:nth-child(10) { margin: 0px 0px 5px; }
+#global-fresh .global-list ul li:nth-child(5) { margin: 0px 0px 5px; }
+#global-fresh .global-list ul li { float: left; position: relative; width: 248px; height: 305px; margin: 0 5px 5px; overflow: hidden; cursor: pointer; }
+#global-fresh .global-list ul li a { display: block; width: 100%; height: auto; overflow: hidden; }
+#global-fresh .global-list ul li a img { width: 100%; height: 100%; }
+#global-fresh .global-list ul li .s-fon { position: relative; line-height: 24px; font-size: 14px; width: 250px; height: 50px; }
+#global-fresh .global-list ul li .s-fon .s-name { font-size: 14px; padding-left: 2px; text-overflow: ellipsis; color: #555555; max-width: 210px; overflow: hidden; width: 212px; white-space: nowrap; }
+#global-fresh .global-list ul li .s-fon .s-unit { margin-left: 5px; line-height: 24px; text-overflow: ellipsis; color: #555555; white-space: nowrap; overflow: hidden; }
+#global-fresh .global-list ul li .s-fon .s-che { position: absolute; top: auto; bottom: 5px; right: 2px; width: 34px; height: 34px; }
+#global-fresh .global-list ul li .pos-span { position: absolute; left: 0px; top: 0px; }
+#global-fresh .global-list ul li .pos-span span { cursor: pointer; font-size: 14px; line-height: 1px; padding: 6px 5px; color: #FFFFFF; background: #FF5353; width: 64px; height: 14px; }
+#global-fresh .global-ad { widows: 1280px; margin: 20px auto 0; }
+#global-fresh .global-ad a { display: block; width: 100%; }
+#global-fresh .global-ad a img { border: 0; width: 100%; display: inline; }
 
 /*# sourceMappingURL=index.css.map */

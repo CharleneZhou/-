@@ -99,15 +99,65 @@ $(function(){
 						`
 			}
 			$(".goods-list").find("ul").html(html);
-			
 			//鼠标滑过 图片的动画
-			$(".goods-list").on("img",function(){
-				
+			$(".goods-list").on("mouseenter","img",function(){
+				$(this).css({
+					"transform":"scale(1.1)",
+					"transition":"0.3s"
+				})
+			}).on("mouseleave","img",function(){
+				$(this).css({
+					"transform":"scale(1)",
+					"transition":"0.3s"
+				})
 			})
-			
-			
 		}
+	});
+	//全球鲜果
+	$.ajax({
 		
+		type:"get",
+		url:"json/index.json",
+		success:function(res){
+			//页面加载获取数据
+			var html = "";
+			var globalFresh = res.globalFresh;
+			for(var i in globalFresh){
+				var	str = "";
+				
+				if(globalFresh[i].posSpan==""){
+					str += `<span style="display:none">${globalFresh[i].posSpan}</span>`
+				}else{
+					str += `<span>${globalFresh[i].posSpan}</span>`
+				}
+				html += `
+							<li>
+								<a href=""><img src="img/${globalFresh[i].images}" alt="" /></a>
+								<div class="s-fon">
+									<div class="s-name">${globalFresh[i].sName}</div>
+									<div class="s-unit">${globalFresh[i].sUnit}</div>
+									<div class="s-che" style="${globalFresh[i].sChe}"></div>
+								</div>
+								<div class="pos-span">`
+									+str+
+								`</div>
+							</li>
+						`
+			}
+			$(".global-list").find("ul").html(html);
+			//鼠标滑过 图片的动画
+			$(".global-list").on("mouseenter","img",function(){
+				$(this).css({
+					"transform":"scale(1.1)",
+					"transition":"0.3s"
+				})
+			}).on("mouseleave","img",function(){
+				$(this).css({
+					"transform":"scale(1)",
+					"transition":"0.3s"
+				})
+			})
+		}
 	});
 	
 })

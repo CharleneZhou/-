@@ -94,5 +94,89 @@
 				 "posSpan":""
 				}
 			
+		],
+"globalFresh":[
+							{
+				 "num":"01",
+				 "images":"global-list1.jpg",
+				 "sName":"优选新奇士美国晚熟脐橙",
+				 "sUnit":"￥78.00/ 10个",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"新品"
+				},
+				{
+				 "num":"02",
+				 "images":"global-list2.jpg",
+				 "sName":"美国加州樱桃",
+				 "sUnit":" ￥138.00/2斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"新品"
+				},
+				{
+				 "num":"03",
+				 "images":"global-list3.jpg",
+				 "sName":"美人尖番茄",
+				 "sUnit":" ￥39.00/2斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"新品"
+				},
+				{
+				 "num":"04",
+				 "images":"global-list4.jpg",
+				 "sName":" 南汇8424西瓜(普通装)",
+				 "sUnit":" ￥59.00/1个",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"新品"
+				 
+				},
+				{
+				 "num":"05",
+				 "images":"global-list5.jpg",
+				 "sName":"妃子笑荔枝",
+				 "sUnit":" ￥59.90/4斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"新品预售"
+				},
+				{
+				 "num":"06",
+				 "images":"global-list6.jpg",
+				 "sName":"泰国山竹",
+				 "sUnit":" ￥49.90/2斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"已省8.1元"
+				},
+				{
+				 "num":"07",
+				 "images":"global-list7.jpg",
+				 "sName":" 砀山油桃",
+				 "sUnit":"￥39.90/2斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"已省20元"
+				},
+				{
+				 "num":"08",
+				 "images":"global-list8.jpg",
+				 "sName":" 墨西哥牛油果",
+				 "sUnit":" ￥49.90/3个",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"09",
+				 "images":"global-list9.jpg",
+				 "sName":"  云南夏黑葡萄",
+				 "sUnit":" ￥69.90/2斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"10",
+				 "images":"global-list10.jpg",
+				 "sName":"  南汇玉菇甜瓜",
+				 "sUnit":" ￥29.90/1个",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				}
 		]	
+		
 }
