@@ -1,0 +1,140 @@
+@charset "UTF-8";
+#hearder-logo {
+  height: 120px;
+  box-shadow: 0 2px 8px rgba(230, 230, 230, 0.75);
+  border-bottom: 1px solid #F1F1F1; }
+
+#hearder-logo > .logo {
+  margin-left: 18px;
+  float: left; }
+
+#hearder-logo > .logo > a > img {
+  margin: 22px 18px; }
+
+/*中间注册部分*/
+#zhuce {
+  width: 1000px;
+  height: 542px;
+  margin: 0 auto;
+  padding-top: 50px; }
+
+#zhuce .member {
+  font-size: 20px;
+  color: #999999;
+  padding: 16px 0;
+  margin-bottom: 36px;
+  border-bottom: 1px solid #F1F1F1; }
+
+#zhuce .register {
+  width: 1000px;
+  height: 400px; }
+
+.register .register-left {
+  width: 500px;
+  height: 400px;
+  position: relative;
+  float: left; }
+
+.register #huiyuan {
+  cursor: pointer;
+  position: absolute;
+  bottom: 12px;
+  right: 168px;
+  width: 155px;
+  height: 50px;
+  background: white;
+  border-color: #63a22f;
+  color: #63a22f;
+  font-size: 18px; }
+
+.register-right {
+  width: 440px;
+  height: 400px;
+  float: left;
+  margin-left: 58px; }
+
+.register-right tr {
+  width: 340px;
+  height: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  text-align: center; }
+  .register-right tr .iput {
+    width: 300px;
+    height: 40px;
+    border-radius: 0;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 16px; }
+  .register-right tr #ucheckcode {
+    width: 250px;
+    margin-right: 50px; }
+  .register-right tr .s {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    right: -36px;
+    top: 0px; }
+  .register-right tr .code {
+    position: absolute;
+    top: 11px;
+    left: -110px; }
+  .register-right tr .recode {
+    position: absolute;
+    left: -40px;
+    top: 11px;
+    font-size: 16px;
+    color: #999999; }
+  .register-right tr #scode {
+    right: -32px; }
+  .register-right tr .send {
+    display: block;
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    left: -96px;
+    top: 11px;
+    cursor: pointer;
+    font-size: 16px; }
+  .register-right tr #fr-register {
+    width: 143px;
+    height: 38px;
+    float: left;
+    background: #64a131;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    line-height: 38px;
+    font-size: 18px;
+    border: 0;
+    position: absolute;
+    left: 77px;
+    top: 24px;
+    cursor: pointer; }
+  .register-right tr #fr-login {
+    display: block;
+    width: 143px;
+    height: 38px;
+    float: left;
+    border: 1px solid #64A131;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 38px;
+    color: #64A131;
+    font-size: 18px;
+    position: absolute;
+    left: 150px;
+    top: 24px;
+    cursor: pointer; }
+
+.register-right td {
+  font-size: 16px;
+  color: #999999;
+  position: relative; }
+
+.fr td {
+  position: relative; }
+  .fr td a {
+    position: absolute;
+    left: 50%; }

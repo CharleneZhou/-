@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<!--头部-->
+		<div id="hearder-wrap"></div>
+		<div id="hearder-logo">
+			<div class="logo">
+				<a href=""><img src="img/logo.jpg"/></a>
+			</div>
+		</div>
+		<!--注册页面-->
+		<div id="zhuce">
+			<p class="member">注册会员</p>
+			<div class="register">
+				<div class="register-left">
+					<img src="img/huiyuan.jpg"/>
+					<input type="button" name="huiyuan" id="huiyuan" value="会员登录>" />
+				</div>
+				<div class="register-right">
+					<table>
+						<tr class="trName">
+							<td>用户名：</td>
+							<td><input type="text" id="uname" class="iput"/></td>
+							<td><!--<span id="snamu" class="s" style="background: url(img/icon-error.png);">背景图</span>--></td>					
+						</tr>
+						<tr class="trPwd">
+							<td>密码：</td>
+							<td><input type="text" id="upwd" placeholder="  请输入6-20位号码字符" class="iput"/></td>
+							<td><!--<span id="spwd" class="s" style="background: url(img/icon-error.png);"></span>--></td>
+						</tr>
+						<tr class="trQpwd">
+							<td>密码：</td>
+							<td><input type="text" id="uqpwd" placeholder="  请输入6-20位号码字符" class="iput"/></td>
+							<td><!--<<span id="sqpwd" class="s" style="background: url(img/icon-error.png);"></span>--></td>
+						</tr>
+						<tr class="trcheckcode">
+							<td>验证码：</td>
+							<td><input type="text" id="ucheckcode" placeholder="" class="iput"/></td>
+							<td><span class="code">12345</span></td>
+							<td><a href="#" class="recode">刷新</a></td>
+							<td><!--<span id="scode" class="s" style="background: url(img/icon-error.png);"></span>--></td>
+						</tr>
+						<tr>
+							<td>手机验证码：</td>
+							<td><input type="text" id="ucheckphone" placeholder="" class="iput" disabled="true"/></td>
+							<td><a class="send">发送验证码</a></td>
+							<td><span id="sphone" class="s"></span></td>
+						</tr>
+						<tr class="fr">
+							<td><input id="fr-register" type="button" value="注册"></input></td>
+							<td><a href="http://127.0.0.1/Fruit-day/login.html" id="fr-login">会员登录</a></td>
+						</tr>
+					</table>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<!--底部-->
+		<div id="foot-box"></div>
+		<!--底部悬浮按钮-->
+		<div id="toolbtnfoot"></div>
+	</body>
+</html>
+<script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/register.js" type="text/javascript" charset="utf-8"></script>

@@ -1,0 +1,137 @@
+#banner{height: 406px;position: relative;width: 1280px;}
+#banner>.banner-btn{height: 18px;position: absolute;bottom: 23px;left:50%}
+#banner>.banner-btn>li{float: left;display: block;width: 18px;height: 18px;border:1px solid #64A131;margin-left: 14px;border-radius: 50%;cursor: pointer;}
+#banner>.banner-btn>.activeBtn{background: #64A131;}
+#banner{position: relative;}
+#banner>.frame{width: 1280px;height: 400px;overflow: hidden;}
+#banner .banner-pic{height: 400px;width: 7680px;}
+#banner>.frame>.banner-pic>a{float: left;display: block;width: 1280px;}
+#banner>.frame>.banner-pic>a>.active{display:block;width:100%;height:400px;}
+
+//中间广告
+#ad-center{
+    width: 1280px;
+    height: 140px;
+    margin-top:10px;
+    margin-bottom: 50px;
+    ul{
+        width: 100%;
+        height: 100%;
+        li:last-child{
+            margin-right: 0px;
+        }
+        li{
+            float: left;
+            margin-right: 26px;
+           
+            a{
+                display: block;
+                width: 300px;
+                height: 140px;
+                img{
+                    border:0px;
+
+                    
+                }
+            }
+        }
+    }
+}
+//果园推荐
+.fruit-top{
+    width: 1280px;
+    height: 68px - 25px;
+    border-top: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    a{
+        float: right;
+        display: block;
+        margin-right:20px ;
+        color: #333;
+        line-height: 42px;
+        font-size: 14px;
+    }
+}
+.goods-list{
+    width: 1290px;
+    height: 620px;
+    cursor: pointer;
+    ul{
+        li:nth-child(1){
+            width: 248px;
+            height: 610px;
+            margin: 0 5px;
+        }
+        li:nth-child(4),li:nth-child(9){
+            margin: 0px;
+        }
+        
+        li{
+            float: left;
+            position: relative;
+            width: 248px;
+            height: 305px;
+            margin: 0 5px 5px;
+            a{
+                display: block;
+                width: 100%;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        
+            .s-fon{
+                position: relative;
+                line-height: 24px;
+                font-size: 14px;
+                width: 250px;
+                height: 50px;
+                .s-name{
+                    font-size: 14px;
+                    padding-left: 2px;
+                    text-overflow: ellipsis;
+                    color: #555555;
+                    max-width: 210px;
+                    overflow: hidden;
+                    width: 212px;
+                    white-space: nowrap;
+                }
+                .s-unit{
+                    margin-left: 5px;
+                    line-height: 24px;
+                    text-overflow: ellipsis;
+                    color: #555555;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
+                .s-che{
+                    position: absolute;
+                    top: auto;
+                    bottom: 5px;
+                    right: 2px;
+                    width: 34px;
+                    height: 34px;
+                }
+            }
+            .pos-span{
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                span{
+                    cursor: pointer;
+                    font-size: 14px;
+                    line-height: 1px;
+                    padding: 6px 5px;
+                    color: #FFFFFF;
+                    background: #FF5353;
+                    width: 64px;
+                    height: 14px;
+                }
+                
+            }
+        }
+    }
+}

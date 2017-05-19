@@ -1,0 +1,98 @@
+{
+"adCenter":[
+		  {
+		  	"num":"01",
+		  	"images":"ad-center1.jpg"
+		  },
+		  {
+		   "num":"02",
+		   "images":"ad-center2.jpg"
+		  },
+		  {
+		   "num":"03",
+		   "images":"ad-center3.jpg"
+		  },
+		  {
+		   "num":"04",
+		   "images":"ad-center0.jpg"
+		  }
+			
+			],
+			
+"fruitTuijian":[
+				{
+				 "num":"01",
+				 "images":"fruit-tuijian1.jpg",
+				 "sName":"",
+				 "sUnit":"",
+				 "sChe":"",
+				 "posSpan":""
+				},
+				{
+				 "num":"02",
+				 "images":"fruit-tuijian2.jpg",
+				 "sName":"佳沛新西兰阳光金奇异果(巨无霸)(原箱)",
+				 "sUnit":"￥179.00/22个",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"已省79元"
+				},
+				{
+				 "num":"03",
+				 "images":"fruit-tuijian3.jpg",
+				 "sName":"智利咔嚓脆青提",
+				 "sUnit":" ￥68.00/2斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"已省20元"
+				},
+				{
+				 "num":"04",
+				 "images":"fruit-tuijian4.jpg",
+				 "sName":"越南红心火龙果(小)",
+				 "sUnit":" ￥49.90/4斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"已省20元"
+				 
+				},
+				{
+				 "num":"05",
+				 "images":"fruit-tuijian5.jpg",
+				 "sName":"海南金煌芒果",
+				 "sUnit":" ￥39.80/2斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"第二份半价"
+				},
+				{
+				 "num":"06",
+				 "images":"fruit-tuijian6.jpg",
+				 "sName":"南汇白糖蜜瓜",
+				 "sUnit":" ￥36.80/1个",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"第二份半价"
+				},
+				{
+				 "num":"07",
+				 "images":"fruit-tuijian7.jpg",
+				 "sName":"新奇士美国摩洛血橙",
+				 "sUnit":" ￥58.80/6个",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"08",
+				 "images":"fruit-tuijian8.jpg",
+				 "sName":" 新西兰爵士苹果",
+				 "sUnit":" ￥118.00/20个",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"已省20元"
+				},
+				{
+				 "num":"09",
+				 "images":"fruit-tuijian9.jpg",
+				 "sName":"  澳大利亚无籽红提",
+				 "sUnit":" ￥59.80/2斤",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				}
+			
+		]	
+}
