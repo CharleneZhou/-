@@ -37,7 +37,6 @@ $(function(){
 					var listQiyis = tuijian[i].listQiyi;
 					var str2 = "";
 					for(var k in listQiyis){
-//						console.log(listQiyis[k])//list-qiyi01.jpg
 						str2 += `
 									<img src="img/${listQiyis[k]}" alt="" />
 								`
@@ -52,6 +51,22 @@ $(function(){
 			//
 			
 				$(".fr-add").click(function(){
+					//购物车弹出框
+					$("#shop-cart").toggle();
+					$("#zhezhao").toggle();
+					$("#shop-cart").one("click",".cha img",function(){
+						$("#shop-cart").toggle();
+						$("#zhezhao").toggle();
+					})
+					$("#shop-cart").one("click",".btn-left a",function(){
+						$("#shop-cart").toggle();
+						$("#zhezhao").toggle();
+					})
+					$("#shop-cart").one("click",".btn-right a",function(){
+						location.href="cart.html";
+					})
+					
+					
 					//添加到购物车
 					var addNum1 = $(".nav-rLight").find("span").html()
 					var arr = [];
@@ -84,9 +99,25 @@ $(function(){
 					$.cookie("data",JSON.stringify(arr),{path:"/"})//存cookie	
 					console.log($.cookie("data"))
 						
+					//取出cookie值添加到购物车弹出框
+					data = JSON.parse( $.cookie("data") )
+					var sCount = 0;
+					var sPrice = 0;
+					for (var a=0;a<data.length;a++) {
+						sCount += data[a].count;
+						sPrice +=parseFloat( data[a].price.split("￥")[1] );
+					}
+					$("#shop-cart").find(".count").html(sCount);
+					$("#shop-cart").find(".price").html(sPrice);
+//						console.log(sCount)
+//						console.log(sPrice)
+					$(".nav-rLight").find("span").html(sCount)	
 						
-					addNum1++;
-					$(".nav-rLight").find("span").html(addNum1)
+					$(".nav-rLight").find("span").html(sCount)
+					
+					
+					
+					
 				})
 			
 			$(".fr-buy").click(function(){

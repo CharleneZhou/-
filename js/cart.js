@@ -90,6 +90,7 @@ $(function(){
 	
 	//删除
 	$(".delet").click(function(){
+		
 		var num = $(this).parent().find(".num").data("num");
 		if(confirm("你确定要删除吗")){
 			for(var i=0;i<shoplists.length;i++){
@@ -101,6 +102,8 @@ $(function(){
 			}
 			$(this).parent().remove();
 		}
+		
+		jiesuan()
 	})
 		
 	

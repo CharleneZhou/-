@@ -39,10 +39,6 @@ $(function(){
 		
 		
 		$(".nav-center").find("li").first().addClass("current");
-		console.log(location.href)
-//		$(".nav-center").find("li").eq(1).addClass("current");
-		
-		
 		
 		//搜索框
 		$("#sousuo").val("奇异果");

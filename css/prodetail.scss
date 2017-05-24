@@ -611,9 +611,121 @@
     }
     .rightPart{
         width: 278px;
-    }
-    
-    
-    
-    
+    }  
 }
+
+//购物车遮罩
+#shop-cart{
+    display: none;
+    position: fixed;
+    width: 512px;
+    height: 276px;
+    border: 8px;
+    border-color: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.16);
+    top: 50%;
+    left: 50%;
+    z-index: 99999999;
+    padding: 6px;
+    margin: -144px 0 0 -262px;
+    .shop-top{
+        height: 40px;
+        padding-right: 17px;
+        background: #eaeaea;
+        .cha{
+            cursor: pointer;
+            img{
+                margin-top: 10px;
+                vertical-align: middle;
+                float: right;
+            }
+        }
+    }
+    .shop-content{
+        background: #fff;
+        height: 236px;
+        .title{
+            padding: 28px 90px 0;
+            height: 96px;
+            .gou{
+                width: 60px;
+                height: 68px;
+                background: url(../img/icons.png) no-repeat -8px -247px;
+                float: left;
+            }
+            p{
+                font-size: 30px;
+                margin: 13px 0;
+                color: #555;
+                white-space: nowrap;
+                padding-left: 20px;
+                float: left;
+                
+            }
+        }
+        .row2{
+            font-size: 18px;
+            color: #999;
+            white-space: nowrap;
+            padding-left: 4px;
+            text-align: center;
+            .count,.price{
+                font-style: normal;
+                color: #f6ab00;
+                margin-left: 2px;
+                margin-right: 2px;
+            }
+        }
+        .buy-btn{
+            padding: 20px;
+            padding-bottom: 25px;
+            .btn-left{
+                margin-right: 15px;
+                margin-left: 80px;
+                float: left;
+                text-align: center;
+                
+                a{
+                    color: #64a131;
+                    background:#f5ffed;
+                    border:1px solid #64a131;
+                    border-radius:4px;
+                    padding: 10px 16px;
+                    width: 113px;
+                    height: 18px;
+                    display: inline-block;
+                    line-height: 18px;
+                    
+                }
+            }
+            .btn-right{
+                float: left;
+                text-align: center;
+                
+                a{
+                    color: #eff4ec;
+                    background:#64a131;
+                    border:1px solid #64a131;
+                    border-radius:4px;
+                    padding: 10px 16px;
+                    width: 113px;
+                    height: 18px;
+                    display: inline-block;
+                    line-height: 18px;
+                }
+            }
+        }
+    }   
+}
+
+#zhezhao{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position:fixed;
+    z-index: 999;
+    opacity: 0.5;
+    top: 0;
+}
+

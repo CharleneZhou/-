@@ -84,4 +84,22 @@
 #assess .leftPart .goosComment .imgs img { width: 100%; }
 #assess .rightPart { width: 278px; }
 
+#shop-cart { display: none; position: fixed; width: 512px; height: 276px; border: 8px; border-color: rgba(0, 0, 0, 0.5); background: rgba(0, 0, 0, 0.16); top: 50%; left: 50%; z-index: 99999999; padding: 6px; margin: -144px 0 0 -262px; }
+#shop-cart .shop-top { height: 40px; padding-right: 17px; background: #eaeaea; }
+#shop-cart .shop-top .cha { cursor: pointer; }
+#shop-cart .shop-top .cha img { margin-top: 10px; vertical-align: middle; float: right; }
+#shop-cart .shop-content { background: #fff; height: 236px; }
+#shop-cart .shop-content .title { padding: 28px 90px 0; height: 96px; }
+#shop-cart .shop-content .title .gou { width: 60px; height: 68px; background: url(../img/icons.png) no-repeat -8px -247px; float: left; }
+#shop-cart .shop-content .title p { font-size: 30px; margin: 13px 0; color: #555; white-space: nowrap; padding-left: 20px; float: left; }
+#shop-cart .shop-content .row2 { font-size: 18px; color: #999; white-space: nowrap; padding-left: 4px; text-align: center; }
+#shop-cart .shop-content .row2 .count, #shop-cart .shop-content .row2 .price { font-style: normal; color: #f6ab00; margin-left: 2px; margin-right: 2px; }
+#shop-cart .shop-content .buy-btn { padding: 20px; padding-bottom: 25px; }
+#shop-cart .shop-content .buy-btn .btn-left { margin-right: 15px; margin-left: 80px; float: left; text-align: center; }
+#shop-cart .shop-content .buy-btn .btn-left a { color: #64a131; background: #f5ffed; border: 1px solid #64a131; border-radius: 4px; padding: 10px 16px; width: 113px; height: 18px; display: inline-block; line-height: 18px; }
+#shop-cart .shop-content .buy-btn .btn-right { float: left; text-align: center; }
+#shop-cart .shop-content .buy-btn .btn-right a { color: #eff4ec; background: #64a131; border: 1px solid #64a131; border-radius: 4px; padding: 10px 16px; width: 113px; height: 18px; display: inline-block; line-height: 18px; }
+
+#zhezhao { display: none; width: 100%; height: 100%; background: #000; position: fixed; z-index: 999; opacity: 0.5; top: 0; }
+
 /*# sourceMappingURL=prodetail.css.map */

@@ -133,8 +133,9 @@ $(function(){
 						location.href="cart.html";
 					})
 					
+					
+					
 					//添加到购物车
-					var addNum1 = $(".nav-rLight").find("span").html()
 					var arr = [];
 					var flag = true;
 					var d = {
@@ -164,10 +165,19 @@ $(function(){
 					
 					$.cookie("data",JSON.stringify(arr),{path:"/"})//存cookie	
 					console.log($.cookie("data"))
-						
-						
-					addNum1++;
-					$(".nav-rLight").find("span").html(addNum1)
+					//取出cookie值添加到购物车弹出框
+					data = JSON.parse( $.cookie("data") )
+					var sCount = 0;
+					var sPrice = 0;
+					for (var a=0;a<data.length;a++) {
+						sCount += data[a].count;
+						sPrice +=parseFloat( data[a].price.split("￥")[1] );
+					}
+					$("#shop-cart").find(".count").html(sCount);
+					$("#shop-cart").find(".price").html(sPrice);
+						console.log(sCount)
+						console.log(sPrice)
+					$(".nav-rLight").find("span").html(sCount)
 				})
 			})
 		}
