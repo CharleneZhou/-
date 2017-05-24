@@ -1,0 +1,20 @@
+#content { width: 1280px; height: 1280px; margin: 0 auto; padding-top: 50px; border: 1px solid red; }
+#content #bread { width: 1280px; height: 50px; margin-bottom: 20px; font-size: 12px; float: left; }
+#content #bread strong a { color: #64A131; }
+#content #bread .freshs { color: #64A131; }
+#content #bread .freshs a { color: #64A131; }
+#content #bread .huise { color: #999; }
+#content #MyFocus { width: 705px; height: 560px; overflow: hidden; position: relative; border: 1px solid black; float: left; }
+#content #MyFocus .small { float: left; width: 140px; height: 560px; padding: 0; margin: 0; }
+#content #MyFocus .small li { cursor: pointer; width: 138px; height: 138px; margin-bottom: 2px; position: relative; }
+#content #MyFocus .small li img { width: 100%; height: 100%; vertical-align: middle; }
+#content #MyFocus .small .cur { border: 1px solid #f6af0d; opacity: 0.8; }
+#content #MyFocus .big { float: left; width: 560px; height: 560px; position: relative; margin: 0; padding: 0; }
+#content #MyFocus .big li { width: 560px; height: 560px; cursor: pointer; position: relative; }
+#content #MyFocus .big li img { width: 560px; height: 560px; }
+#content #product-fro { padding-left: 20px; width: 550px; height: 555px; margin-top: 20px; float: left; border: 1px solid red; }
+#content #product-fro .pname { width: 532px; border: 1px solid red; }
+#content #product-fro .plist { position: relative; }
+#content #product-fro .pcomment { margin-top: 26px; border: 1px solid red; }
+
+/*# sourceMappingURL=product-NuiYouGuo.css.map */

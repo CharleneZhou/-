@@ -12,7 +12,7 @@ ul,ol,li{list-style: none;}
 #header-left>a>img{vertical-align: middle;}
 #header-left>#free{float: left;margin-left: 1%;}
 #header-left>#free>#star{color:#64a131}
-#header-left>#address{float: left}
+#header-left #address{float: left}
 
 #header-center{width: 540px;float: right;}
 #header-center>.ul>li{float: left;margin-right:2%}
@@ -21,14 +21,14 @@ ul,ol,li{list-style: none;}
 
 /*头部地址下拉*/
 #header-left ul{position: absolute;width: 280px;height: 340px;background: white;margin-top:30px;padding-left:5px ;padding-right: 10px;overflow-y: scroll;display: none;z-index: 1;}
-#header-left>ul>.line{border-bottom: 2px solid #eee;}
+#header-left ul .line{border-bottom: 2px solid #eee;}
 #header-left:hover 
-#header-left>ul>.line:hover{background: #f1f1f1;;color: #64a131;}
-#header-left>ul>.line:hover a{background: #f1f1f1;;color: #64a131;}
+#header-left ul .line:hover{background: #f1f1f1;;color: #64a131;}
+#header-left ul .line:hover a{background: #f1f1f1;;color: #64a131;}
 
-#header-left>ul>.hotcity>ul{width: 260px;height: 30px;background: #f1f1f1;color: #555;}
-#header-left>ul>.hotcity>ul>li{float: left;margin-left: 8px;}
-#header-left>ul>.hotcity>ul>li>a:hover{text-decoration: underline;color: #64a131;}
+#header-left ul .hotcity ul{width: 260px;height: 30px;background: #f1f1f1;color: #555;}
+#header-left ul .hotcity ul li{float: left;margin-left: 8px;}
+#header-left ul .hotcity ul li a:hover{text-decoration: underline;color: #64a131;}
 /*手机果园下拉*/
 #phone-fruit{width: 250px;height: 290px;background: white;position: absolute;right: 165px;padding:20px ;cursor: pointer;display: none;z-index: 1;}
 #phone-fruit>ul>li:nth-child(1){border-bottom: 1px solid gray;text-align: center;}
@@ -50,23 +50,34 @@ ul,ol,li{list-style: none;}
 #nav>.logo>a>img{margin:22px 18px}
 
 #nav>.nav-center{float: left;width: 500px;height: 126px;margin-left: 68px;}
-#nav>.nav-center>ul>li{float: left;}
+#nav>.nav-center>ul>li{float: left;position: relative;}
 #nav>.nav-center>ul>li>a{display: block;border-right: 1px solid gray;padding:0 25px;color: gray;margin-top: 42px;}
 #nav>.nav-center>ul>li>a:nth-child(5){border: none;}
 #nav>.nav-center>ul>li>a:hover{background: gainsboro;}
+#nav .nav-center ul li em{bottom: -32px;width: 90%;border-bottom: 2px solid #55A532;position: absolute;left: 5%;display: none;}
+#nav .nav-center ul .current a:visited{color: #55A532;}
+#nav .nav-center ul .current em{display: block;}
 /*点击改变li下边框*/
 /*#nav>.nav-center>ul>li>a:hover li{display:block;border-bottom: 2px solid lawngreen;}*/
 
 .nav-right{width: 250px;height: 120px;float: right;}
 .nav-rRight{width: 182px;margin-top: 45px;height: 41px;float: left;}
 .nav-rLight{float: right;margin-right: 14px;margin-top: 42px;}
-.nav-rLight>a{display: block;width: 37px;height: 40px;background: url(../img/gouwuche.jpg) no-repeat;}
-#nav>.nav-right>.nav-rRight>.sousuokuang>#sousuo{border: none;border-bottom: 1px solid gray;}
+.nav-rLight>a{display: block;width: 37px;height: 40px;background: url(../img/gouwuche.jpg) no-repeat;position: relative;}
+.nav-rLight span{position: absolute;top:1px;left: 15px;background: #64A131;color: white;}
+/**搜索框**/
+#nav>.nav-right>.nav-rRight>.sousuokuang>#sousuo{border: none;border-bottom: 1px solid gray; outline:none}
 #nav>.nav-right>.nav-rRight>.sousuokuang{width: 180px;height: 24px;position: relative;}
 #nav>.nav-right>.nav-rRight>.sousuokuang>a>img{position: absolute;right: 14px;}
+#nav .sousuokuang ul{position: absolute;width: 93%;border: 1px solid #999;z-index: 1;padding: 5px 0;max-height: 220px;overflow-y: auto;top:19px;font-size: 12px;background: white;display: none;opacity: 0;}
+#nav .sousuokuang ul li{height: 20px;padding: 0 10px;font-size: 12px;line-height: 20px;color: #999;cursor: default;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+#nav .sousuokuang ul li:hover{background: #ccc;}
+
+
 .nav-right>.nav-rRight>ul>li{float: left;color: gray;margin-top: 6px;font-size: 10px;margin-right: 10px;}
 #nav>.nav-right>.nav-rRight>ul>li>a{color: gray;font-size: 10px;}
 #nav>.nav-right>.nav-rRight>ul>li>a:hover{border-bottom: 1px solid gainsboro;}
+
 
 /*底部*/
 #footer{height: 500px;}

@@ -31,8 +31,6 @@ function rand(min,max){
 		}
 		//密码
 		function Pwd(){
-			
-
 			var reg = /^.{6,20}$/;
 			var pwd = $("#upwd").val();
 			if(reg.test(pwd) ){

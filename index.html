@@ -11,7 +11,83 @@
         	头部
         -->
 		<div id="hearder-wrap"></div>
-		<div id="hearder-content"></div>
+		<div id="hearder-content">
+			<div class="nav-center">
+				<ul>
+					<li class="current">
+						<a href="#">
+							首页
+							<p>Home</p>
+							<em></em>
+						</a>
+					</li>
+		
+					<li>
+						<a href="#">
+							<p>鲜果</p>
+							<p>Fruit</p>
+							<em></em>
+						</a>
+					</li>
+		
+					<li>
+						<a href="#">
+							<p>生鲜</p>
+							<p>Fresh</p>
+							<em></em>
+						</a>
+					</li>
+		
+					<li>
+						<a href="#">
+							<p>礼品</p>
+							<p>Gift</p>
+							<em></em>
+						</a>
+					</li>
+		
+					<li>
+						<a href="#">
+							<p>会员中心</p>
+							<p>VIP Club</p>
+							<em></em>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="nav-right">
+				<div class="nav-rRight">
+					<div class="sousuokuang">
+						<input type="txt" name="sousuo" id="sousuo" value="" placeholder="请输入关键字"/>
+						<a href=""><img src="img/mask.jpg"/></a>
+						<ul class="subsearch">
+							<!--<li>1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+							<li>6</li>
+							<li>7</li>
+							<li>8</li>
+							<li>9</li>
+							<li>10</li>-->
+						</ul>
+					</div>
+			
+			
+				<ul>
+					<li>热门：</li>
+					<li><a href="">橙</a></li>
+					<li><a href="">提子</a></li>
+					<li><a href="">蓝莓</a></li>
+					<li><a href="">苹果</a></li>
+				</ul>
+				</div>
+				<div class="nav-rLight">
+					<a href="cart.html"><span>0</span></a>
+				</div>
+			</div>
+		</div>
 		
 		<!--banner轮播图-->
 		<div id="banner" class="main">
@@ -37,6 +113,32 @@
 				<li><a href="#"><img src="img/ad-center3.jpg" alt="" /></a></li>
 				<li><a href="#"><img src="img/ad-center0.jpg" alt="" /></a></li>-->
 			</ul>
+		</div>
+		<!--购物车遮罩-->
+		<div id=""></div>
+		<!--购物车-->
+		<div id="shop-cart">
+			<div class="shop-top">
+				<div class="cha"><img src="img/cha.png" alt="" /></div>
+			</div>
+			<div class="shop-content">
+				<div class="title">
+					<div class="gou"></div>
+					<p>添加购物车成功</p>
+				</div>
+				<p class="row2">
+					购物车中总共<em class="count">0</em>件商品|商品小计<em class="price">0</em>
+				</p>
+				<div class="buy-btn">
+					<div class="btn-left">
+						<a href="javascript:void(0);">继续购物</a>
+					</div>
+					<div class="btn-right">
+						<a href="http://127.0.0.1/Fruit-day/cart.html">去结算</a>
+					</div>
+					
+				</div>
+			</div>
 		</div>
 		<!--果园推荐-->
 		<div id="fruit-tuijian">
@@ -91,7 +193,59 @@
 			</div>
 			
 		</div>
-		
+		<!--生鲜美食-->
+		<div id="fresh-food">
+			<div class="fresh-title">
+				<a href="#">更多></a>
+				<img src="img/fresh-food.png"/>
+			</div>
+			<div class="fresh-list">
+				<ul>
+					
+					<li>
+						<a href=""><img src="img/fruit-tuijian2.jpg" alt="" /></a>
+						<div class="s-fon">
+							<div class="s-name"> 优选新奇士美国晚熟脐橙</div>
+							<div class="s-unit"> ￥78.00/ 10个</div>
+							<div class="s-che" style="background: url(img/icons.png) no-repeat -517px -243px;"></div>
+						</div>
+						<div class="pos-span">
+							<span>新品</span>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+			<div class="fresh-ad">
+				<a href="#"><img src="img/fresh-ad.jpg"/></a>
+			</div>
+			
+		</div>
+		<!--礼品卡券-->
+		<div id="gift-card">
+			<div class="gift-title">
+				<a href="#">更多></a>
+				<img src="img/global-title.png"/>
+			</div>
+			<div class="gift-list">
+				<ul>
+					
+					<li>
+						<a href=""><img src="img/fruit-tuijian2.jpg" alt="" /></a>
+						<div class="s-fon">
+							<div class="s-name"> 优选新奇士美国晚熟脐橙</div>
+							<div class="s-unit"> ￥78.00/ 10个</div>
+							<div class="s-che" style="background: url(img/icons.png) no-repeat -517px -243px;"></div>
+						</div>
+						<div class="pos-span">
+							<span>新品</span>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+			
+		</div>
 		<!--底部-->
 		<div id="foot-box"></div>
 		<!--底部悬浮按钮-->
@@ -101,3 +255,4 @@
 <script src="js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>

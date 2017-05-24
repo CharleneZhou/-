@@ -1,0 +1,29 @@
+#content { width: 1280px; }
+#content .select { margin-top: 20px; width: 1280px; height: 221px; }
+#content .select .pull { width: 100%; padding-bottom: 6px; padding-top: 12px; border-bottom: 1px solid #ccc; float: left; }
+#content .select .pull h5 { color: #999999; line-height: 24px; margin-right: 20px; font-size: 14px; float: left; }
+#content .select .pull .select-list { width: 1230px; float: left; }
+#content .select .pull .select-list .leftPart { width: 48px; height: 24px; background: #64A131; text-align: center; float: left; }
+#content .select .pull .select-list .leftPart a { color: white; line-height: 24px; }
+#content .select .pull .select-list .rightPart { width: 1182px; float: left; }
+#content .select .pull .select-list .rightPart a { display: inline-block; color: #555; font-size: 14px; height: 24px; padding: 0 9px; line-height: 24px; text-align: center; }
+#content .select .paixu { border: 0; }
+#content .select .paixu .rightPart { background: #f0f0f0; }
+#content .list { width: 1280px; height: 2980px; margin-top: 30px; }
+#content .list .listLeft { width: 1000px; margin-bottom: 100px; }
+#content .list .listLeft ul li { position: relative; float: left; margin: 0 4px; margin-bottom: 8px; overflow: hidden; font-size: 14px; }
+#content .list .listLeft ul li .wrap { width: 224px; height: 316px; }
+#content .list .listLeft ul li .wrap .imgs { height: 224px; margin-bottom: 6px; position: relative; }
+#content .list .listLeft ul li .wrap .imgs img { vertical-align: middle; width: 100%; height: 100%; }
+#content .list .listLeft ul li .wrap .info { height: 24px; margin-bottom: 5px; margin-left: 3px; line-height: 24px; }
+#content .list .listLeft ul li .wrap .info p { float: left; width: 150px; height: 24px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+#content .list .listLeft ul li .wrap .info span { float: right; color: #999999; }
+#content .list .listLeft ul li .wrap .p-operate { padding-top: 3px; width: 230px; height: 34px; overflow: hidden; }
+#content .list .listLeft ul li .wrap .p-operate .guige { height: 22px; border-radius: 2px; line-height: 24px; text-align: center; float: left; cursor: pointer; border: 1px solid #DDDDDD; color: #999; padding: 0 5px; margin-right: 18px; margin-left: 2px; }
+#content .list .listLeft ul li .wrap .p-operate .s-che { float: right; position: relative; width: 34px; height: 34px; top: -3px; right: 5px; background: url(../img/icons.png) no-repeat -518px -243px; cursor: pointer; }
+
+.nav-center .current a { color: #55A532; }
+
+.nav-center .current em { display: block; }
+
+/*# sourceMappingURL=FruitList.css.map */

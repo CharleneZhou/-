@@ -16,6 +16,10 @@
 
 #banner > .frame > .banner-pic > a > .active { display: block; width: 100%; height: 400px; }
 
+.nav-center ul .current a:visited { color: #55A532; }
+
+.nav-center ul .current em { display: block; }
+
 #ad-center { width: 1280px; height: 140px; margin-top: 10px; margin-bottom: 50px; }
 #ad-center ul { width: 100%; height: 100%; }
 #ad-center ul li:last-child { margin-right: 0px; }
@@ -39,7 +43,7 @@
 .goods-list ul li .pos-span { position: absolute; left: 0px; top: 0px; }
 .goods-list ul li .pos-span span { cursor: pointer; font-size: 14px; line-height: 1px; padding: 6px 5px; color: #FFFFFF; background: #FF5353; width: 64px; height: 14px; }
 
-#global-fresh { width: 100%; height: 830px; }
+#global-fresh { width: 100%; height: 890px; }
 #global-fresh .global-title { width: 1280px; height: 68px; margin: 0 auto; padding: 15px 0 10px; font-size: 14px; line-height: 42px; border-top: 1px solid #ccc; }
 #global-fresh .global-title a { float: right; color: #333; margin-right: 20px; }
 #global-fresh .global-title img { float: left; }
@@ -56,8 +60,71 @@
 #global-fresh .global-list ul li .s-fon .s-che { position: absolute; top: auto; bottom: 5px; right: 2px; width: 34px; height: 34px; }
 #global-fresh .global-list ul li .pos-span { position: absolute; left: 0px; top: 0px; }
 #global-fresh .global-list ul li .pos-span span { cursor: pointer; font-size: 14px; line-height: 1px; padding: 6px 5px; color: #FFFFFF; background: #FF5353; width: 64px; height: 14px; }
+#global-fresh .global-list ul li .pos-span .active { cursor: pointer; font-size: 14px; line-height: 1px; padding: 6px 5px; color: #FFFFFF; background: #55A532; width: 64px; height: 14px; }
 #global-fresh .global-ad { widows: 1280px; margin: 20px auto 0; }
 #global-fresh .global-ad a { display: block; width: 100%; }
 #global-fresh .global-ad a img { border: 0; width: 100%; display: inline; }
+
+#fresh-food { width: 100%; height: 1240px; }
+#fresh-food .fresh-title { width: 1280px; height: 68px; margin: 0 auto; padding: 15px 0 10px; font-size: 14px; line-height: 42px; border-top: 1px solid #ccc; }
+#fresh-food .fresh-title a { float: right; color: #333; margin-right: 20px; }
+#fresh-food .fresh-title img { float: left; }
+#fresh-food .fresh-list { width: 1290px; height: 950px; }
+#fresh-food .fresh-list ul { margin: 0 auto; }
+#fresh-food .fresh-list ul li:nth-child(10) { margin: 0px 0px 5px; }
+#fresh-food .fresh-list ul li:nth-child(5) { margin: 0px 0px 5px; }
+#fresh-food .fresh-list ul li { float: left; position: relative; width: 248px; height: 305px; margin: 0 5px 5px; overflow: hidden; cursor: pointer; }
+#fresh-food .fresh-list ul li a { display: block; width: 100%; height: auto; overflow: hidden; }
+#fresh-food .fresh-list ul li a img { width: 100%; height: 100%; }
+#fresh-food .fresh-list ul li .s-fon { position: relative; line-height: 24px; font-size: 14px; width: 250px; height: 50px; }
+#fresh-food .fresh-list ul li .s-fon .s-name { font-size: 14px; padding-left: 2px; text-overflow: ellipsis; color: #555555; max-width: 210px; overflow: hidden; width: 212px; white-space: nowrap; }
+#fresh-food .fresh-list ul li .s-fon .s-unit { margin-left: 5px; line-height: 24px; text-overflow: ellipsis; color: #555555; white-space: nowrap; overflow: hidden; }
+#fresh-food .fresh-list ul li .s-fon .s-che { position: absolute; top: auto; bottom: 5px; right: 2px; width: 34px; height: 34px; }
+#fresh-food .fresh-list ul li .pos-span { position: absolute; left: 0px; top: 0px; }
+#fresh-food .fresh-list ul li .pos-span span { cursor: pointer; font-size: 14px; line-height: 1px; padding: 6px 5px; color: #FFFFFF; background: #FF5353; width: 64px; height: 14px; }
+#fresh-food .fresh-list ul li .pos-span .active { cursor: pointer; font-size: 14px; line-height: 1px; padding: 6px 5px; color: #FFFFFF; background: #55A532; width: 64px; height: 14px; }
+#fresh-food .fresh-ad { widows: 1280px; margin: 10px auto 40px; }
+#fresh-food .fresh-ad a { display: block; width: 100%; }
+#fresh-food .fresh-ad a img { border: 0; width: 100%; display: inline; }
+
+#gift-card { width: 100%; height: 1040px; }
+#gift-card .gift-title { width: 1280px; height: 68px; margin: 0 auto; padding: 15px 0 10px; font-size: 14px; line-height: 42px; border-top: 1px solid #ccc; }
+#gift-card .gift-title a { float: right; color: #333; margin-right: 20px; }
+#gift-card .gift-title img { float: left; }
+#gift-card .gift-list { width: 1290px; height: 930px; }
+#gift-card .gift-list ul { margin: 0 auto; }
+#gift-card .gift-list ul li:nth-child(10) { margin: 0px 0px 5px; }
+#gift-card .gift-list ul li:nth-child(5) { margin: 0px 0px 5px; }
+#gift-card .gift-list ul li { float: left; position: relative; width: 248px; height: 305px; margin: 0 5px 5px; overflow: hidden; cursor: pointer; }
+#gift-card .gift-list ul li a { display: block; width: 100%; height: auto; overflow: hidden; }
+#gift-card .gift-list ul li a img { width: 100%; height: 100%; }
+#gift-card .gift-list ul li .s-fon { position: relative; line-height: 24px; font-size: 14px; width: 250px; height: 50px; }
+#gift-card .gift-list ul li .s-fon .s-name { font-size: 14px; padding-left: 2px; text-overflow: ellipsis; color: #555555; max-width: 210px; overflow: hidden; width: 212px; white-space: nowrap; }
+#gift-card .gift-list ul li .s-fon .s-unit { margin-left: 5px; line-height: 24px; text-overflow: ellipsis; color: #555555; white-space: nowrap; overflow: hidden; }
+#gift-card .gift-list ul li .s-fon .s-che { position: absolute; top: auto; bottom: 5px; right: 2px; width: 34px; height: 34px; }
+#gift-card .gift-list ul li .pos-span { position: absolute; left: 0px; top: 0px; }
+#gift-card .gift-list ul li .pos-span span { cursor: pointer; font-size: 14px; line-height: 1px; padding: 6px 5px; color: #FFFFFF; background: #FF5353; width: 64px; height: 14px; }
+#gift-card .gift-list ul li .pos-span .active { cursor: pointer; font-size: 14px; line-height: 1px; padding: 6px 5px; color: #FFFFFF; background: #55A532; width: 64px; height: 14px; }
+#gift-card .gift-ad { widows: 1280px; margin: 10px auto 40px; }
+#gift-card .gift-ad a { display: block; width: 100%; }
+#gift-card .gift-ad a img { border: 0; width: 100%; display: inline; }
+
+#shop-cart { display: none; position: fixed; width: 512px; height: 276px; border: 8px; border-color: rgba(0, 0, 0, 0.5); background: rgba(0, 0, 0, 0.16); top: 50%; left: 50%; z-index: 99999999; padding: 6px; margin: -144px 0 0 -262px; }
+#shop-cart .shop-top { height: 40px; padding-right: 17px; background: #eaeaea; }
+#shop-cart .shop-top .cha { cursor: pointer; }
+#shop-cart .shop-top .cha img { margin-top: 10px; vertical-align: middle; float: right; }
+#shop-cart .shop-content { background: #fff; height: 236px; }
+#shop-cart .shop-content .title { padding: 28px 90px 0; height: 96px; }
+#shop-cart .shop-content .title .gou { width: 60px; height: 68px; background: url(../img/icons.png) no-repeat -8px -247px; float: left; }
+#shop-cart .shop-content .title p { font-size: 30px; margin: 13px 0; color: #555; white-space: nowrap; padding-left: 20px; float: left; }
+#shop-cart .shop-content .row2 { font-size: 18px; color: #999; white-space: nowrap; padding-left: 4px; text-align: center; }
+#shop-cart .shop-content .row2 .count, #shop-cart .shop-content .row2 .price { font-style: normal; color: #f6ab00; margin-left: 2px; margin-right: 2px; }
+#shop-cart .shop-content .buy-btn { padding: 20px; padding-bottom: 25px; }
+#shop-cart .shop-content .buy-btn .btn-left { margin-right: 15px; margin-left: 80px; float: left; text-align: center; }
+#shop-cart .shop-content .buy-btn .btn-left a { color: #64a131; background: #f5ffed; border: 1px solid #64a131; border-radius: 4px; padding: 10px 16px; width: 113px; height: 18px; display: inline-block; line-height: 18px; }
+#shop-cart .shop-content .buy-btn .btn-right { float: left; text-align: center; }
+#shop-cart .shop-content .buy-btn .btn-right a { color: #eff4ec; background: #64a131; border: 1px solid #64a131; border-radius: 4px; padding: 10px 16px; width: 113px; height: 18px; display: inline-block; line-height: 18px; }
+
+#zhezhao { display: none; width: 100%; height: 100%; background: #000; position: fixed; z-index: 999; opacity: 0.5; top: 0; }
 
 /*# sourceMappingURL=index.css.map */

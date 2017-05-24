@@ -26,7 +26,31 @@
 				 "sName":"",
 				 "sUnit":"",
 				 "sChe":"",
-				 "posSpan":""
+				 "posSpan":"",
+				 "name":" 巨无霸-佳沛新西兰阳光金奇异果",
+				 "price":"￥49.90",
+				 "guige":"6个",
+				 "shuoming":"大块头巨能量",
+				 "chandi":"新西兰",
+				 "beizhu":"单个重140-170g",
+				 "tiandu":"3星",
+				 "count":1,
+				 "listSmallImg":[
+				 						"listSmallImg01.jpg",
+				 						"listSmallImg02.jpg",
+				 						"listSmallImg03.jpg",
+				 						"listSmallImg04.jpg"
+				 					],
+				"listQiyi":[
+										"list-qiyi01.jpg",
+										"list-qiyi02.jpg",
+										"list-qiyi03.jpg",
+										"list-qiyi04.jpg",
+										"list-qiyi05.jpg",
+										"list-qiyi06.jpg",
+										"list8.jpg",
+										"list9.jpg"
+								]
 				},
 				{
 				 "num":"02",
@@ -34,7 +58,31 @@
 				 "sName":"佳沛新西兰阳光金奇异果(巨无霸)(原箱)",
 				 "sUnit":"￥179.00/22个",
 				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
-				 "posSpan":"已省79元"
+				 "posSpan":"已省79元",
+				 "name":" 佳沛新西兰阳光金奇异果(巨无霸)(原箱)",
+				 "price":"￥179.00",
+				 "guige":"22个",
+				 "shuoming":"营养好吃 味道独特",
+				 "chandi":"新西兰",
+				 "beizhu":"单个重140-160g",
+				 "tiandu":"3星",
+				 "count":1,
+				 "listSmallImg":[
+				 						"listSmallImg01.jpg",
+				 						"listSmallImg02.jpg",
+				 						"listSmallImg03.jpg",
+				 						"listSmallImg04.jpg"
+				 					],
+				"listQiyi":[
+										"list-qiyi01.jpg",
+										"list-qiyi02.jpg",
+										"list-qiyi03.jpg",
+										"list-qiyi04.jpg",
+										"list-qiyi05.jpg",
+										"list-qiyi06.jpg",
+										"list8.jpg",
+										"list9.jpg"
+								]
 				},
 				{
 				 "num":"03",
@@ -42,7 +90,31 @@
 				 "sName":"智利咔嚓脆青提",
 				 "sUnit":" ￥68.00/2斤",
 				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
-				 "posSpan":"已省20元"
+				 "posSpan":"已省20元",
+				 "name":" 智利咔嚓脆青提",
+				 "price":"￥68.00",
+				 "guige":"2斤",
+				 "shuoming":"入口一崩 劲脆惊艳",
+				 "chandi":"智利",
+				 "beizhu":"商品实际重量存在误差(±5%)",
+				 "tiandu":"3星",
+				 "count":1,
+				 "listSmallImg":[
+				 						"listSmallImgQingti01.jpg",
+				 						"listSmallImgQingti02.jpg",
+				 						"listSmallImgQingti03.jpg",
+				 						"listSmallImgQingti04.jpg"
+				 					],
+				"listQiyi":[
+										"list-qingti01.jpg",
+										"list-qingti02.jpg",
+										"list-qingti03.jpg",
+										"list-qingti01.jpg",
+										"list-qingti03.jpg",
+										"list-qingti02.jpg",	
+										"list8.jpg",
+										"list9.jpg"
+								]
 				},
 				{
 				 "num":"04",
@@ -50,7 +122,31 @@
 				 "sName":"越南红心火龙果(小)",
 				 "sUnit":" ￥49.90/4斤",
 				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
-				 "posSpan":"已省20元"
+				 "posSpan":"已省20元",
+				 "name":" 越南红心火龙果(小)",
+				 "price":"￥49.90",
+				 "guige":"4斤",
+				 "shuoming":"每天都要很健康",
+				 "chandi":"越南",
+				 "beizhu":"单个重 330-460g",
+				 "tiandu":"3星",
+				 "count":1,
+				 "listSmallImg":[
+				 						"listSmallImgHLG01.jpg",
+				 						"listSmallImgHLG02.jpg",
+				 						"listSmallImgHLG03.jpg",
+				 						"listSmallImgHLG04.jpg"
+				 					],
+				"listQiyi":[
+										"list-hlg01.jpg",
+										"list-hlg02.jpg",
+										"list-hlg03.jpg",
+										"list-hlg04.jpg",
+										"list-hlg02.jpg",
+										"list-hlg03.jpg",
+										"list8.jpg",
+										"list9.jpg"
+								]
 				 
 				},
 				{
@@ -59,7 +155,28 @@
 				 "sName":"海南金煌芒果",
 				 "sUnit":" ￥39.80/2斤",
 				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
-				 "posSpan":"第二份半价"
+				 "posSpan":"第二份半价",
+				 "name":" 海南金煌芒果",
+				 "price":"￥39.80",
+				 "guige":"2斤",
+				 "shuoming":"薄核厚肉超满足",
+				 "chandi":"中国",
+				 "beizhu":"商品实际重量存在误差(±5%)",
+				 "tiandu":"5星",
+				 "count":1,
+				 "listSmallImg":[
+				 						"listSmallImMG01.jpg",
+				 						"listSmallImMG02.jpg",
+				 						"listSmallImMG03.jpg"
+				 					],
+				"listQiyi":[
+										"list-MG01.jpg",
+										"list-MG02.jpg",
+										"list-MG03.jpg",
+										"list-MG04.jpg",
+										"list8.jpg",
+										"list9.jpg"
+								]
 				},
 				{
 				 "num":"06",
@@ -67,7 +184,29 @@
 				 "sName":"南汇白糖蜜瓜",
 				 "sUnit":" ￥36.80/1个",
 				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
-				 "posSpan":"第二份半价"
+				 "posSpan":"第二份半价",
+				  "name":" 南汇白糖蜜瓜",
+				 "price":"￥36.80",
+				 "guige":"1个",
+				 "shuoming":"比白糖还甜的蜜瓜",
+				 "chandi":"中国",
+				 "beizhu":"单个重 1-1.25kg ",
+				 "tiandu":"4星",
+				 "count":1,
+				 "listSmallImg":[
+				 						"listSmallImgBG01.jpg",
+				 						"listSmallImgBG02.jpg",
+				 						"listSmallImgBG03.jpg",
+				 						"listSmallImgBG04.jpg"
+				 					],
+				"listQiyi":[
+										"list-BG01.jpg",
+										"list-BG02.jpg",
+										"list-BG03.jpg",
+										"list-BG04.jpg",
+										"list8.jpg",
+										"list9.jpg"
+								]
 				},
 				{
 				 "num":"07",
@@ -75,7 +214,30 @@
 				 "sName":"新奇士美国摩洛血橙",
 				 "sUnit":" ￥58.80/6个",
 				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
-				 "posSpan":""
+				 "posSpan":"",
+				  "name":" 新奇士美国摩洛血橙",
+				 "price":"￥58.80",
+				 "guige":"6个",
+				 "shuoming":"冲破寒冬 我就是更甜",
+				 "chandi":"美国",
+				 "beizhu":"单个重 200-250g",
+				 "tiandu":"3星",
+				 "count":1,
+				 "listSmallImg":[
+				 						"listSmallImgXC01.jpg",
+				 						"listSmallImgXC02.jpg",
+				 						"listSmallImgXC03.jpg",
+				 						"listSmallImgXC04.jpg"
+				 					],
+				"listQiyi":[
+										"list-XC01.jpg",
+										"list-XC02.jpg",
+										"list-XC03.jpg",
+										"list-XC04.jpg",
+										"list-XC05.jpg",
+										"list8.jpg",
+										"list9.jpg"
+								]
 				},
 				{
 				 "num":"08",
@@ -83,7 +245,30 @@
 				 "sName":" 新西兰爵士苹果",
 				 "sUnit":" ￥118.00/20个",
 				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
-				 "posSpan":"已省20元"
+				 "posSpan":"已省20元",
+				   "name":" 新西兰爵士苹果",
+				 "price":"￥118.00",
+				 "guige":"20个",
+				 "shuoming":"酸甜与爽脆的双重轻奏",
+				 "chandi":"新西兰",
+				 "beizhu":"单个重 165-205g",
+				 "tiandu":"3星",
+				 "count":1,
+				 "listSmallImg":[
+				 						"listSmallImgPG01.jpg",
+				 						"listSmallImgPG02.jpg",
+				 						"listSmallImgPG03.jpg",
+				 						"listSmallImgPG04.jpg"
+				 					],
+				"listQiyi":[
+										"list-PG01.jpg",
+										"list-PG02.jpg",
+										"list-PG03.jpg",
+										"list-PG04.jpg",
+										"list-PG05.jpg",
+										"list8.jpg",
+										"list9.jpg"
+								]
 				},
 				{
 				 "num":"09",
@@ -91,7 +276,31 @@
 				 "sName":"  澳大利亚无籽红提",
 				 "sUnit":" ￥59.80/2斤",
 				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
-				 "posSpan":""
+				 "posSpan":"",
+				   "name":" 澳大利亚无籽红提",
+				 "price":"￥59.80",
+				 "guige":"2斤",
+				 "shuoming":"可以吃的甜脆钻石",
+				 "chandi":"澳大利亚",
+				 "beizhu":"商品实际重量存在误差(±5%)",
+				 "tiandu":"5星",
+				 "count":1,
+				 "listSmallImg":[
+				 						"listSmallImgHT01.jpg",
+				 						"listSmallImgHT02.jpg",
+				 						"listSmallImgHT03.jpg"
+				 					],
+				"listQiyi":[
+										"list-HT01.jpg",
+										"list-HT02.jpg",
+										"list-HT03.jpg",
+										"list-HT04.jpg",
+										"list-HT05.jpg",
+										"list-HT06.jpg",
+										"list-HT07.jpg",
+										"list8.jpg",
+										"list9.jpg"
+								]
 				}
 			
 		],
@@ -177,6 +386,257 @@
 				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
 				 "posSpan":""
 				}
+		],	
+"freshFood":[
+							{
+				 "num":"01",
+				 "images":"fresh-title1.jpg",
+				 "sName":"新西兰牛脊骨",
+				 "sUnit":"￥39.90/500g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"第二件9.9"
+				},
+				{
+				 "num":"02",
+				 "images":"fresh-title2.jpg",
+				 "sName":"日式素鲍鱼",
+				 "sUnit":"￥19.00/230g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"第二件12.9"
+				},
+				{
+				 "num":"03",
+				 "images":"fresh-title3.jpg",
+				 "sName":"巴西牛腱肉",
+				 "sUnit":"￥89.00/1kg",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"立降10"
+				},
+				
+				{
+				 "num":"04",
+				 "images":"fresh-title9.jpg",
+				 "sName":"  阿根廷红虾（巨无霸 L1级）",
+				 "sUnit":"￥198.00/2000g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"立降30"
+				},
+				{
+				 "num":"05",
+				 "images":"fresh-title4.jpg",
+				 "sName":"兰特全脂巴氏杀菌鲜牛奶",
+				 "sUnit":" ￥58.00/1L",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				 
+				},
+				{
+				 "num":"06",
+				 "images":"fresh-title5.jpg",
+				 "sName":"草原和牛牛小排",
+				 "sUnit":" ￥89.00/250g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"07",
+				 "images":"fresh-title6.jpg",
+				 "sName":"思念中华面点猪猪红豆包",
+				 "sUnit":"￥29.90/300g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"08",
+				 "images":"fresh-title7.jpg",
+				 "sName":" Jonesy's澳洲原装进口鲜牛奶",
+				 "sUnit":"￥99.00/2l",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"09",
+				 "images":"fresh-title8.jpg",
+				 "sName":" 荷美尔经典台式香肠（冰鲜）",
+				 "sUnit":"￥25.80/250g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":"冰鲜"
+				},
+				{
+				 "num":"10",
+				 "images":"fresh-title10.jpg",
+				 "sName":"  精选云南鲜银耳",
+				 "sUnit":" ￥45.00/3朵",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"11",
+				 "images":"fresh-title11.jpg",
+				 "sName":"智利爱阁鸡翅中",
+				 "sUnit":"￥65.90/1000g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"12",
+				 "images":"fresh-title12.jpg",
+				 "sName":"思念迪士尼小熊维尼奶黄包",
+				 "sUnit":" ￥28.00/110g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"13",
+				 "images":"fresh-title13.jpg",
+				 "sName":"新西兰银鳕鱼（冻南极犬牙鱼）",
+				 "sUnit":"￥198.00/400g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"14",
+				 "images":"fresh-title14.jpg",
+				 "sName":"唯品纯牛奶",
+				 "sUnit":"￥25.80/950ml",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				 
+				},
+				{
+				 "num":"15",
+				 "images":"fresh-title15.jpg",
+				 "sName":"加拿大特级肉眼牛排(安格斯谷饲无激素)",
+				 "sUnit":" ￥88.00/200g",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				}
+		]	,	
+"giftCard":[
+							{
+				 "num":"01",
+				 "images":"gift-list1.jpg",
+				 "sName":"粽情一夏礼盒B",
+				 "sUnit":"￥238.00/礼盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"02",
+				 "images":"gift-list2.jpg",
+				 "sName":"端午浓情礼盒B",
+				 "sUnit":"￥358.00/礼盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"03",
+				 "images":"gift-list3.jpg",
+				 "sName":"橙心闪闪礼盒",
+				 "sUnit":"￥99.00/1盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				
+				{
+				 "num":"04",
+				 "images":"gift-list9.jpg",
+				 "sName":"双色六福粽礼盒",
+				 "sUnit":"￥59.00/组合",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"05",
+				 "images":"gift-list4.jpg",
+				 "sName":"橙意满满粽礼盒",
+				 "sUnit":"￥59.00/6个",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				 
+				},
+				{
+				 "num":"06",
+				 "images":"gift-list5.jpg",
+				 "sName":"温馨祝福鲜果礼盒",
+				 "sUnit":"￥268.00/1盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"07",
+				 "images":"gift-list6.jpg",
+				 "sName":"关怀备至礼盒",
+				 "sUnit":"￥198.00/1盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"08",
+				 "images":"gift-list7.jpg",
+				 "sName":" 诚心诚意礼盒",
+				 "sUnit":" ￥178.00/1盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"09",
+				 "images":"gift-list8.jpg",
+				 "sName":"万事如意礼盒",
+				 "sUnit":"￥198.00/1盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"10",
+				 "images":"gift-list10.jpg",
+				 "sName":" 欢乐孕期水果礼盒B",
+				 "sUnit":"￥178.00/1盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"11",
+				 "images":"gift-list11.jpg",
+				 "sName":"低糖礼盒",
+				 "sUnit":"￥218.00/1盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"12",
+				 "images":"gift-list12.jpg",
+				 "sName":"情真意切水果礼篮",
+				 "sUnit":"￥238.00/礼篮",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"13",
+				 "images":"gift-list13.jpg",
+				 "sName":"真心祝福水果礼篮",
+				 "sUnit":"￥358.00/礼篮",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				},
+				{
+				 "num":"14",
+				 "images":"gift-list14.jpg",
+				 "sName":"深情厚意水果礼篮",
+				 "sUnit":"￥580.00/1盒",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				 
+				},
+				{
+				 "num":"15",
+				 "images":"gift-list15.jpg",
+				 "sName":"绿野仙踪礼篮",
+				 "sUnit":"￥580.00/礼篮 ",
+				 "sChe":"background: url(img/icons.png) no-repeat -517px -243px;",
+				 "posSpan":""
+				}
 		]	
 		
 }
+
