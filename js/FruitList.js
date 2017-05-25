@@ -112,7 +112,7 @@ $(function(){
 					var sPrice = 0;
 					for (var a=0;a<data.length;a++) {
 						sCount += data[a].count;
-						sPrice +=parseFloat( data[a].price.split("￥")[1] );
+						sPrice +=parseFloat( data[a].price.split("￥")[1] * data[a].count );
 					}
 					$("#shop-cart").find(".count").html(sCount);
 					$("#shop-cart").find(".price").html(sPrice);

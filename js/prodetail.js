@@ -48,9 +48,35 @@ $(function(){
 				}
 			$(".buy").append(str)
 			}
-			//
-			
-				$(".fr-add").click(function(){
+
+				//数量减
+				$(".redu").click(function(){
+					var num = $(".goods-buy").find(".pull").val();
+					num --;
+					if(num<=1){
+						num=1;
+					}
+					$(".goods-buy").find(".pull").val(num)
+				})
+				//数量加
+				$(".add").click(function(){
+					var num = $(".goods-buy").find(".pull").val();
+					num ++;
+					$(".goods-buy").find(".pull").val(num);
+				})
+				
+				function tanchu(){
+					data = JSON.parse( $.cookie("data") )
+					var sCount = 0;
+					var sPrice = 0;
+					for(var i=0;i<data.length;i++){
+						sCount += data[i].count;
+						sPrice += parseFloat( data[i].price.split("￥")[1] * data[i].count );
+					}
+					$("#shop-cart").find(".count").html(sCount);
+					$("#shop-cart").find(".price").html(sPrice);
+					
+					$(".nav-rLight").find("span").html(sCount)
 					//购物车弹出框
 					$("#shop-cart").toggle();
 					$("#zhezhao").toggle();
@@ -66,9 +92,13 @@ $(function(){
 						location.href="cart.html";
 					})
 					
+				}
+			
+				$(".fr-add").click(function(){
+					
+					
 					
 					//添加到购物车
-					var addNum1 = $(".nav-rLight").find("span").html()
 					var arr = [];
 					var flag = true;
 					var d = {
@@ -80,13 +110,13 @@ $(function(){
 						"count":1  //用来记录该商品添加了几次
 					};
 					//存cookie
-//						var id = tuijian[index].num;
+
 					oldCookie = $.cookie("data");
 					if(oldCookie!=undefined){
 						arr = JSON.parse(oldCookie);
 						for(var i=0;i<arr.length;i++){
 							if(d.num==arr[i].num){
-								arr[i].count++
+								arr[i].count++;
 								flag = false;
 								break;
 							}
@@ -98,24 +128,23 @@ $(function(){
 					
 					$.cookie("data",JSON.stringify(arr),{path:"/"})//存cookie	
 					console.log($.cookie("data"))
-						
+					
+					
 					//取出cookie值添加到购物车弹出框
 					data = JSON.parse( $.cookie("data") )
-					var sCount = 0;
-					var sPrice = 0;
+					
 					for (var a=0;a<data.length;a++) {
-						sCount += data[a].count;
-						sPrice +=parseFloat( data[a].price.split("￥")[1] );
-					}
-					$("#shop-cart").find(".count").html(sCount);
-					$("#shop-cart").find(".price").html(sPrice);
-//						console.log(sCount)
-//						console.log(sPrice)
-					$(".nav-rLight").find("span").html(sCount)	
 						
-					$(".nav-rLight").find("span").html(sCount)
+						if( data[a].name == $(".pname").find("h3").text() ){
+							data[a].count = Number(data[a].count)-1 + Number($(".goods-buy").find(".pull").val() )
+						}
+						
+					}
+					$.cookie("data",JSON.stringify(data),{path:"/"})
 					
+//				$(".nav-rLight").find("span").html(sCount)	
 					
+					tanchu()
 					
 					
 				})
@@ -226,21 +255,6 @@ $(function(){
 		}
 		
 	});
-	//数量减
-	$(".redu").click(function(){
-		var num = $(".goods-buy").find(".pull").val();
-		num --;
-		if(num<=1){
-			num=1;
-		}
-		$(".goods-buy").find(".pull").val(num)
-	})
-	//数量加
-	$(".add").click(function(){
-		var num = $(".goods-buy").find(".pull").val();
-		num ++;
-		$(".goods-buy").find(".pull").val(num);
-	})
 	
 	
 	
