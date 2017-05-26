@@ -1,7 +1,7 @@
 $(function(){	
-	$("#hearder-content").load("html/nav.html",function(){
+	/*$("#hearder-content").load("html/nav.html",function(){
 		$(".nav-center").find("li").eq(1).addClass("current");
-	}
+	}*/
 	
 	$.ajax({
 		type:"get",
