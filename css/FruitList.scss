@@ -136,10 +136,11 @@
     }
 }
 
-
-.nav-center .current a{color: #55A532;}
-.nav-center .current em{display: block;}
-
+   .nav-center ul .current a:visited{color: #55A532;}
+   .nav-center ul .current em{display: block;}
+ 
+ #curs a{color: #55A532;display: block;border-right: 1px solid gray;padding:0 25px;margin-top: 42px;} 
+ #curs em{display: block;bottom: -32px;width: 90%;border-bottom: 2px solid #55A532;position: absolute;left: 5%;}
 
 //购物车遮罩
 #shop-cart{

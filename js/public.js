@@ -37,7 +37,6 @@ $(function(){
 			})
 		})
 		
-		
 		$(".nav-center").find("li").first().addClass("current");
 		
 		//搜索框

@@ -1,4 +1,8 @@
 $(function(){	
+	$("#hearder-content").load("html/nav.html",function(){
+		$(".nav-center").find("li").eq(1).addClass("current");
+	}
+	
 	$.ajax({
 		type:"get",
 		url:"json/index.json",
